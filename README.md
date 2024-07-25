@@ -1,4 +1,6 @@
 # Algoritmos y Estructuras de Datos II
+Esta materia forma parte del programa de la Lic. en Ciencia de Datos de la Universidad Nacional de Buenos Aires
+
 ## Objetivos de la materia
 - Presentar los conceptos básicos que hacen a la solución algorítmica de problemas correcta y eficiente: especificación, diseño, implementación, complejidad de cómputo.
 - Introducir tipos abstractos de datos recursivos.
