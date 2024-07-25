@@ -1,34 +1,26 @@
-<h1 align="center"> Trabajo Práctico 3 </h1>
+# Algoritmos y Estructuras de Datos II
+## Objetivos de la materia
+- Presentar los conceptos básicos que hacen a la solución algorítmica de problemas correcta y eficiente: especificación, diseño, implementación, complejidad de cómputo.
+- Introducir tipos abstractos de datos recursivos.
+- Presentar las soluciones concretas más reconocidas para los problemas fundamentales de búsqueda y ordenamiento.
+- Presentar técnicas básicas de análisis y de diseño de algoritmos
+- Resolver por computadora proyectos pequeños y medianos donde se apliquen las herramientas y técnicas aprendidas, incluyendo el tratamiento de archivos secuenciales.
 
-El objetivo de este TP es implementar en C++ todos los módulos correspondientes al diseño presentado
-por su grupo en el TP2. El código que entreguen debería respetar el diseño propuesto en el TP2 de la manera
-más fiel posible. Obviamente se permite y se espera que corrijan todos los potenciales bugs que puedan llegar
-a encontrar en el diseño. Las implementaciones deben cumplir con las complejidades definidas en su solución
-del TP 2 (salvo mejoras que hayan encontrado), incluyendo las restricciones de complejidad establecidas en el
-enunciado del mismo.
+La finalidad de los trabajos prácticos es ejercitar los temas vistos en la materia que se divide en tres ejes:
 
-<h3 align="center"> Código producido </h3>
-La resolución debe tener un archivo .h y .cpp por cada módulo del TP 2 (o eventualmente un archivo .hpp
-si se trata de un módulo paramétrico que se implemente con templates). Estos archivos deberán ubicarse en
-el directorio src, respetando el esqueleto disponible en la página de la materia.
-Código de la cátedra y tests
+### 1. Tipos abstractos de datos y problemas
+- Tipos abstractos de datos: secuencia; pila; cola; arreglo; árbol binario; conjunto; diccionario.
+- Especificación: descripción de problemas utilizando tipos abstractos; modularización.
+- Recursión: axiomatización de funciones mediante la recursión; inducción estructural.
 
-Como parte del enunciado, la cátedra provee un esqueleto de TP3. El esqueleto tiene la misma estructura
-de directorio que los talleres, con un directorio src para los archivos fuente y un directorio tests para el código
-de los tests. Proveemos un conjunto de casos de test que deberán ser pasados con éxito. Los tests provistos por
-la cátedra no son necesariamente exhaustivos, por lo tanto, deben escribir sus propios tests de unidad para
-evaluar aquellos casos que no estén contemplados en los tests de la cátedra. Se exige para la aprobación del TP
-haber incluido al menos 1 test propio.
-
-Los archivos que comienzan con el prefijo **`fachada_`** que se encuentran en el directorio src son provistos
-como parte del esqueleto del TP para poder utilizarlos en los tests. Deben completar estos archivos agregando
-instancias de las clases diseñadas por ustedes en la parte privada de cada clase e implementado los métodos de
-forma tal que utilicen la interfaz provista por sus propios módulos.
-El archivo **`src/tipos.h`** define algunos tipos auxiliares y renombres de tipos. En particular, se define el
-**struct** **`aed2_Puesto`**. Este struct agrupa los parámetros que se necesitan para crear un puesto y sú único
-próposito es para facilitar los tests de la cátedra.
-
-La adaptación de la interfaz de sus módulos a los requeridos en en las fachadas puede conllevar operaciones
-con un costo no inmediato (ej. copiar un conjunto a una lista, recorrer un diccionario, etc.). Los requisitos de
-complejidad a cumplir aplican solamente a las funciones de la interfaz de los módulos. Los costos asociados a
-la traducción de su interfaz a la nuestra no tienen restricciones.
+### 2. Diseño, estructuras de datos y algoritmos
+- Diseño: conceptos; módulos; relación implementa_a; invariante de representación y función de abstracción; diagramas conmutativos.
+- Complejidad de algoritmos: Análisis asintótico del peor caso y caso promedio. Notación O(). Cotas superiores e inferiores.
+- Estructuras de Datos: representaciones simples para secuencias, pilas y colas; representaciones simples para diccionarios/conjuntos: secuencias, arreglos, punteros, árboles binarios y árboles binarios de búsqueda; representaciones más elaboradas: árboles balanceados, árboles AVL, hashing abierto, hashing cerrado y tries; colas de prioridad: heaps. Búsqueda y ordenamiento en memoria secundaria. Otras estructuras de datos para diccionarios.
+- Algoritmos de Ordenamiento: Métodos básicos: inserción, selección. Métodos elaborados: quicksort, mergesort, heapsort. Algoritmos de ordenamiento para inputs particulares.
+ 
+### 3. Técnicas Algorítmicas
+- Divide & Conquer.
+- Generalización de funciones.
+- Eliminación de la Recursión: plegado/desplegado; inmersión de parámetros.
+- Aplicación de algoritmos y estructuras de datos a otros problemas.
