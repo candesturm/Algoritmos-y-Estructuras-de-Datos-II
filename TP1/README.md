@@ -1,5 +1,5 @@
 # Trabajo Práctico 1
--la resolución del trabajo puede encontrarse en el archivo `LollapatuzaTP1.pdf`
+La resolución del trabajo puede encontrarse en el archivo `LollapatuzaTP1.pdf`
 ## Enunciado
 La organización del reconocido festival internacional Lollapatuza nos encomendó realizar el sistema para el manejo centralizado de la comida.
 
